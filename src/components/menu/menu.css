@@ -196,3 +196,16 @@
     align-items: flex-start;
 }
 
+.search-bar {
+    margin: 1vh auto 3vh auto ;
+    padding: 1vh 2vw;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: flex-start;
+    border-bottom: 1px solid grey;
+}
+

@@ -35,7 +35,7 @@ function ProductSummary({ data }) {
                 </div>
                 <div className="summary-text">
                     <h5>
-                        ${data.prices.base} / lb
+                        ${data.prices.base} / g
                     </h5>
                 </div>
             </div>

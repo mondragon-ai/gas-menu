@@ -5,7 +5,7 @@
   list-style: none;
   color: black;
   font-size: 3vw;
-  border: 1px solid rgb(214, 93, 93);
+  /* border: 1px solid rgb(214, 93, 93); */
   width: auto;
   height: auto;
   margin: 0;
@@ -113,6 +113,13 @@ h5 {
 span, p, a {
   font-family: 'RopaSans';
   font-size: 1vh;
+}
+
+input {
+  width: 100%;
+  height: 2.1vh;
+  position: relative;
+  border: 0 solid transparent;
 }
   
 

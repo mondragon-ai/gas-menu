@@ -3,14 +3,13 @@ import '../components/menu/menu.css';
 import { ScrollMenu } from 'react-horizontal-scrolling-menu';
 import HotItem from '../components/menu/HotItem';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFire } from '@fortawesome/free-solid-svg-icons';
-import { faCannabis } from '@fortawesome/free-solid-svg-icons';
+import { faFire, faCannabis, faSearch } from '@fortawesome/free-solid-svg-icons';
 import pic from "../assets/img/product/flower/bigs/dry-bud.png";
 import ProductList from '../components/menu/ProductList';
 
 const prices =
 {
-    base: 2.30,
+    base: 2.31,
     five_lb: 2.29,
     ten_lb: 2.28,
     twenty_lb: 2.26,
@@ -76,6 +75,16 @@ function Home() {
 
                 {/* 1. CATEGORY - RESUABLE */}
                 <header className="">
+
+                    {/* SEARCH BAR */}
+                    <div className="search-bar">
+                        <input type="text" name="search" id="search" placeholder='Get some gas . . .' />
+                        <div style={{ marginRight: '2vw' }}>
+                            <FontAwesomeIcon icon={faSearch} style={{ textAlign: "left", margin: "0, 7vw", fontSize: "2vh" }} />
+                        </div>
+                    </div>
+
+                    {/* CATEGORY SELECT  */}
                     <div className="category">
                         <h4 style={{ backgroundColor: "#FEBD6F", color: "#FFF" }}>Edibles</h4>
                         <h4>Flower</h4>
