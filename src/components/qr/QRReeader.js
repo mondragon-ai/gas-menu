@@ -9,7 +9,8 @@ function QRReeader() {
             <QrReader
                 onResult={(r, e) => {
                     if (r) {
-                        setData(r?.getText);
+                        setData(r.getText());
+                        console.log(r)
                     } else {
                         console.log(e)
                     }

@@ -4,7 +4,7 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 function Search({ handleToggle }) {
 
-    console.log(handleToggle);
+    // console.log(handleToggle);
 
     // const { setCategory } = handleToggle;
 

@@ -225,3 +225,132 @@
     border-bottom: 1px solid grey;
 }
 
+#FILTER {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* width: 83vw; */
+    width: 100%;
+    right: 0;
+    /* background-color: #e2e2e2; */
+    box-shadow: 0px 0px 15px rgb(187, 187, 187);
+    z-index: 2;
+}
+
+#FILTER .bkg {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #ececec69;
+    /* box-shadow: 0px 0px 15px rgb(187, 187, 187); */
+    z-index: 1;
+}
+
+#FILTER .front {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 83vw;
+    /* width: 100%; */
+    right: 0;
+    background-color: #e2e2e2;
+    box-shadow: 0px 0px 15px rgb(187, 187, 187);
+    z-index: 2;
+}
+
+#FILTER header {
+    position: sticky;
+    margin: 0;
+    padding: 0;
+    height: 10vh;
+    /* background-color: #1a1a1a; */
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+
+#FILTER header a {
+    color: rgb(245, 193, 124);
+}
+
+.filter-open {
+    visibility: visible;
+}
+
+
+.filter-close {
+    visibility: hidden;
+}
+
+.filter-container {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 93%;
+    /* background-color: #1a1a1a; */
+    z-index: 3;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-items: center;
+    align-items: flex-end;
+}
+
+.filter-container > form {
+    margin: 1.5vh 0;
+    padding: 0;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-items: center;
+    align-items: flex-end;
+}
+
+.filter-container > form  div {
+    margin: 0.5vh 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-items: center;
+    align-items: center;
+}
+
+.filter-container > form  div label {
+    margin: 0 2vw;
+    color: #5e5e5e;
+}
+
+.hline {
+    margin: 2vh 0;
+    border-bottom: 1px solid rgba(201, 201, 201, 0.445);
+    width: 90%;
+}
+
+.price-filter {
+    width: 100%;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    justify-items: center;
+    align-items: flex-end;
+}
+
+.price-filter > div {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-around !important;
+    justify-items: center;
+    align-items: center;
+}
+
+
+
